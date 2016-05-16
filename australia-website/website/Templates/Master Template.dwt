@@ -29,63 +29,62 @@ body {
 <body>
 	<div class="wrapper">
     	<div class="navigation">
-    	  <h1 style="color: #C00"><strong><em>Aussie Itineraries</em></strong></h1>
-    	  <ul>
-    	    <li><a href="../index.html"><strong>Home</strong></a> </li>
-    	    <li><a href="../gold-coast/index.html"><strong>Gold Coast</strong></a><!-- TemplateBeginIf cond="_document['gold-coast']" -->
-    	      <blockquote>
-    	        <ul>
-    	          <li><a href="../gold-coast/day-one.html">Day 1</a></li>
-    	          <li><a href="../gold-coast/day-two.html">Day 2</a></li>
-    	          <li><a href="../gold-coast/day-three.html">Day 3</a></li>
-    	          <li><a href="../gold-coast/day-four.html">Day 4</a></li>
-  	          </ul>
+    	  <h1 style="color: #C00"><em><strong><center>Aussie Itineraries</strong></em></h1>
+          <ul>
+            <li><a href="../index.html"><strong>Home</strong></a> </li>
+            <li><strong><a href="../gold-coast/index.html">Gold Coast</a></strong><!-- TemplateBeginIf cond="_document['gold-coast']" -->
+              <blockquote>
+                <ul>
+                  <li><a href="../gold-coast/day-one.html">Day 1</a></li>
+                  <li><a href="../gold-coast/day-two.html">Day 2</a></li>
+                  <li><a href="../gold-coast/day-three.html">Day 3</a></li>
+                  <li><a href="../gold-coast/day-four.html">Day 4</a></li>
+                </ul>
+              </blockquote>
+            <!-- TemplateEndIf --> </li>
+            <li><a href="../sydney/index.html"><strong>Sydney</strong></a><!-- TemplateBeginIf cond="sydney" -->
+            <blockquote>
+              <ul>
+                <li><a href="../sydney/day-one.html">Day 1</a></li>
+                <li><a href="../sydney/day-two.html">Day 2</a></li>
+                <li><a href="../sydney/day-three.html">Day 3</a> </li>
+                <li><a href="../sydney/day-four.html">Day 4</a></li>
+              </ul>
             </blockquote>
-<!-- TemplateEndIf --> </li>
-    	  
-    	    <li><a href="../sydney/index.html"><strong>Sydney</strong></a><!-- TemplateBeginIf cond="sydney" -->
-    	      <blockquote>
-    	        <ul>
-    	          <li><a href="../sydney/day-one.html">Day 1</a></li>
-    	          <li><a href="../sydney/day-two.html">Day 2</a></li>
-    	          <li><a href="../sydney/day-three.html">Day 3</a> </li>
-    	          <li><a href="../sydney/day-four.html">Day 4</a></li>
-  	          </ul>
+            <!-- TemplateEndIf --></li>
+            <li><a href="../melbourne/index.html"><strong>Melbourne</strong></a></li>
+            <!-- TemplateBeginIf cond="melbourne" -->
+            <blockquote>
+              <ul>
+                <li><a href="../melbourne/day-one.html">Day 1</a></li>
+                <li><a href="../melbourne/day-two.html">Day 2</a></li>
+                <li><a href="../melbourne/day-three.html">Day 3</a></li>
+                <li><a href="../melbourne/day-four.html">Day 4</a></li>
+              </ul>
             </blockquote>
-<!-- TemplateEndIf --> </li>
-    	    <li><a href="../melbourne/index.html"><strong>Melbourne</strong></a></li>
-  	    </ul>
-    	  <ul>
-    	    <!-- TemplateBeginIf cond="melbourne" -->
-    	      <blockquote>
-    	        <ul>
-    	          <li><a href="../melbourne/day-one.html">Day 1</a></li>
-    	          <li><a href="../melbourne/day-two.html">Day 2</a></li>
-    	          <li><a href="../melbourne/day-three.html">Day 3</a></li>
-    	          <li><a href="../melbourne/day-four.html">Day 4</a></li>
-   	            </ul>
-   	        </blockquote>
-  <!-- TemplateEndIf --> 
-    	    <li><a href="../whitsundays/index.html"><strong>Whitsundays</strong></a><!-- TemplateBeginIf cond="whitsundays" -->
-    	      <blockquote>
-    	        <ul>
-    	          <li><a href="../whitsundays/day-one.html">Day 1</a></li>
-    	          <li><a href="../whitsundays/day-two.html">Day 2</a></li>
-    	          <li><a href="../whitsundays/day-three.html">Day 3</a></li>
-   	            </ul>
-   	        </blockquote>
-  <!-- TemplateEndIf --> </li>
-    	    <li><a href="../outback-uluru/index.html"><strong>Outback/Uluru</strong></a><!-- TemplateBeginIf cond="outback" -->
+            <!-- TemplateEndIf --> 
+            <li>
+                <p><a href="../whitsundays/index.html"><strong>Whitsundays</strong></a></p>              
+              <!-- TemplateBeginIf cond="whitsundays" -->
+                <blockquote>
+                  <ul>
+                    <li><a href="../whitsundays/day-one.html">Day 1</a></li>
+                    <li><a href="../whitsundays/day-two.html">Day 2</a></li>
+                    <li><a href="../whitsundays/day-three.html">Day 3</a></li>
+                  </ul>
+              </blockquote>
+            <!-- TemplateEndIf --> </li>
+            <li><a href="../outback-uluru/index.html"><strong>Outback/Uluru</strong></a><!-- TemplateBeginIf cond="outback" -->
     	      <blockquote>
     	        <ul>
     	          <li><a href="../outback-uluru/day-one.html">Day 1</a></li>
     	          <li><a href="../outback-uluru/day-two.html">Day 2</a></li>
-    	          <li><a href="../outback-uluru/day-three.html">Day 3</a>    	    </li>
-   	            </ul>
-   	        </blockquote>
-  <!-- TemplateEndIf --> </li>
-  	    </ul>
-   	    </div>
+    	          <li><a href="../outback-uluru/day-three.html">Day 3</a> </li>
+  	          </ul>
+  	        </blockquote>
+   	        <!-- TemplateEndIf --> </li>
+          </ul>
+</div>
         <div class="content">
           <!-- TemplateBeginEditable name="Content" -->Content<!-- TemplateEndEditable -->
         </div>
